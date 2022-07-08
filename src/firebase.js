@@ -1,13 +1,14 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
-	apiKey: "AIzaSyDaQvfAm1Emc0zu73HgeR-Uj0UjdBYZjbw",
-	authDomain: "arai-workshop-2022.firebaseapp.com",
-	projectId: "arai-workshop-2022",
-	storageBucket: "arai-workshop-2022.appspot.com",
-	messagingSenderId: "159582546812",
-	appId: "1:159582546812:web:162ffa2dda8bed5a1092f9",
+  apiKey: "AIzaSyDPbb9Z9br0-DL0Xx-oEWY80p-0uv5pvNs",
+  authDomain: "workshop-test-fce39.firebaseapp.com",
+  projectId: "workshop-test-fce39",
+  storageBucket: "workshop-test-fce39.appspot.com",
+  messagingSenderId: "123261918190",
+  appId: "1:123261918190:web:0ec4a593630636e7ed0cff"
 };
 
 const app = initializeApp(firebaseConfig);
